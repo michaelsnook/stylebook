@@ -1,3 +1,6 @@
+@import 'styles/variables';
+@import 'bootstrap/scss/bootstrap';
+
 .App {
   text-align: center;
 }
@@ -8,6 +11,7 @@
 }
 
 .App-header {
+  @extend .mb-4;
   background-color: #222;
   height: 150px;
   padding: 20px;
