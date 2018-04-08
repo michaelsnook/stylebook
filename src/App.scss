@@ -11,10 +11,6 @@
   to { transform: rotate(360deg); }
 }
 
-body {
-  @extend .py-5;
-}
-
 .NavbarInner { @extend .collapse, .navbar-collapse; }
 .NavbarMain { @extend .navbar, .navbar-expand-lg, .navbar-light, .bg-light; }
 .Navbar { }
