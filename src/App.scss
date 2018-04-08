@@ -17,3 +17,4 @@
 .NavbarSecondary { background-color: $gray-300; @extend .container, .text-right, .py-2, .px-5 }
 .NavSimple { @extend .nav; }
 .SearchInline { @extend .form-inline, .my-2, .my-lg-0; }
+.ModalInner { @extend .modal; }
