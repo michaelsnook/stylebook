@@ -10,6 +10,7 @@ class Stylebook extends Component {
     return (
       <React.Fragment>
         <div className="container">
+
           <div className="jumbotron rounded-0">
             <h1>Generic Stylebook Maker in React</h1>
             <p>This is a generic stylebook maker. Right now it has been deployed for
@@ -22,26 +23,24 @@ class Stylebook extends Component {
               <li><a href="#"> Generic action page </a></li>
             </ul>
           </div>
+
           <h2>Navbars</h2>
-          <Example
-            title="The full Navbar for the website"
-          >
+          <Example title="The full Navbar for the website">
             <Navbar />
           </Example>
-          <Example
-            title="The main section of the Navbar"
-          >
+          <Example title="The main section of the Navbar">
             <NavbarMain />
           </Example>
-          <Example
-            title="A simple nav with a few links"
-          >
+          <Example title="A simple nav with a few links">
             <NavSimple />
           </Example>
+
         </div>
+
         <footer className="text-center border-top py-5 bg-light">
           <p><a href="https://github.com/michaelsnook/stylebook">Fork on GitHub</a></p>
         </footer>
+
       </React.Fragment>
     );
   }
