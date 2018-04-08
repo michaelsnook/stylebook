@@ -5,7 +5,7 @@ import NavbarMain from './NavbarMain'
 class Navbar extends Component {
   render() {
     return (
-      <div classNameName={ 'Navbar ' + this.props.className }>
+      <div className={ 'Navbar ' + this.props.className }>
         <NavbarSecondary />
         <NavbarMain />
       </div>
